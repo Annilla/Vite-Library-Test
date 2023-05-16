@@ -1,14 +1,18 @@
 {
   "name": "anny-lib",
+  "private": true,
   "version": "1.0.0",
   "description": "",
-  "files":["dist"],
-  "main":"./dist/anny-lib.umd.js",
-  "module":"./dist/anny-lib.es.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/annyLib.umd.js",
+  "module": "./dist/annyLib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/anny-lib.es.js",
-      "require": "./dist/anny-lib.umd.js"
+      "import": "./dist/annyLib.es.js",
+      "require": "./dist/annyLib.umd.js"
     }
   },
   "scripts": {
@@ -26,7 +30,9 @@
     "url": "https://github.com/Annilla/Vite-Library-Test/issues"
   },
   "homepage": "https://github.com/Annilla/Vite-Library-Test#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.2.0",
+    "svelte": "^3.59.1",
     "vite": "^4.3.6"
   }
 }
