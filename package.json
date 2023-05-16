@@ -1,0 +1,32 @@
+{
+  "name": "anny-lib",
+  "version": "1.0.0",
+  "description": "",
+  "files":["dist"],
+  "main":"./dist/anny-lib.umd.js",
+  "module":"./dist/anny-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/anny-lib.es.js",
+      "require": "./dist/anny-lib.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annilla/Vite-Library-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annilla/Vite-Library-Test/issues"
+  },
+  "homepage": "https://github.com/Annilla/Vite-Library-Test#readme",
+  "dependencies": {
+    "vite": "^4.3.6"
+  }
+}
