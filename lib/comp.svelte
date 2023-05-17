@@ -1,1 +1,1 @@
-<div>comp</div>
+<div class="annylib-w-24 annylib-bg-gray-200">comp</div>
